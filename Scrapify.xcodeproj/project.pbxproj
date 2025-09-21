@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		405D44F82E80991A00C6B732 /* Scrapify iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrapify iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		405D45082E80991B00C6B732 /* Scrapify iOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrapify iOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		405D45122E80991B00C6B732 /* Scrapify iOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrapify iOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405D44F82E80991A00C6B732 /* Scrapify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrapify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405D45082E80991B00C6B732 /* ScrapifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrapifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		405D45122E80991B00C6B732 /* ScrapifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrapifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		405D45352E809C7B00C6B732 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,9 +91,9 @@
 		405D44F92E80991A00C6B732 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				405D44F82E80991A00C6B732 /* Scrapify iOS App.app */,
-				405D45082E80991B00C6B732 /* Scrapify iOS AppTests.xctest */,
-				405D45122E80991B00C6B732 /* Scrapify iOS AppUITests.xctest */,
+				405D44F82E80991A00C6B732 /* Scrapify.app */,
+				405D45082E80991B00C6B732 /* ScrapifyTests.xctest */,
+				405D45122E80991B00C6B732 /* ScrapifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		405D44F72E80991A00C6B732 /* Scrapify iOS App */ = {
+		405D44F72E80991A00C6B732 /* Scrapify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 405D451C2E80991B00C6B732 /* Build configuration list for PBXNativeTarget "Scrapify iOS App" */;
+			buildConfigurationList = 405D451C2E80991B00C6B732 /* Build configuration list for PBXNativeTarget "Scrapify" */;
 			buildPhases = (
 				405D44F42E80991A00C6B732 /* Sources */,
 				405D44F52E80991A00C6B732 /* Frameworks */,
@@ -116,16 +116,16 @@
 			fileSystemSynchronizedGroups = (
 				405D44FA2E80991A00C6B732 /* Scrapify iOS App */,
 			);
-			name = "Scrapify iOS App";
+			name = Scrapify;
 			packageProductDependencies = (
 			);
 			productName = "Scrapify iOS App";
-			productReference = 405D44F82E80991A00C6B732 /* Scrapify iOS App.app */;
+			productReference = 405D44F82E80991A00C6B732 /* Scrapify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		405D45072E80991B00C6B732 /* Scrapify iOS AppTests */ = {
+		405D45072E80991B00C6B732 /* ScrapifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 405D451F2E80991B00C6B732 /* Build configuration list for PBXNativeTarget "Scrapify iOS AppTests" */;
+			buildConfigurationList = 405D451F2E80991B00C6B732 /* Build configuration list for PBXNativeTarget "ScrapifyTests" */;
 			buildPhases = (
 				405D45042E80991B00C6B732 /* Sources */,
 				405D45052E80991B00C6B732 /* Frameworks */,
@@ -139,16 +139,16 @@
 			fileSystemSynchronizedGroups = (
 				405D450B2E80991B00C6B732 /* Scrapify iOS AppTests */,
 			);
-			name = "Scrapify iOS AppTests";
+			name = ScrapifyTests;
 			packageProductDependencies = (
 			);
 			productName = "Scrapify iOS AppTests";
-			productReference = 405D45082E80991B00C6B732 /* Scrapify iOS AppTests.xctest */;
+			productReference = 405D45082E80991B00C6B732 /* ScrapifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		405D45112E80991B00C6B732 /* Scrapify iOS AppUITests */ = {
+		405D45112E80991B00C6B732 /* ScrapifyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 405D45222E80991B00C6B732 /* Build configuration list for PBXNativeTarget "Scrapify iOS AppUITests" */;
+			buildConfigurationList = 405D45222E80991B00C6B732 /* Build configuration list for PBXNativeTarget "ScrapifyUITests" */;
 			buildPhases = (
 				405D450E2E80991B00C6B732 /* Sources */,
 				405D450F2E80991B00C6B732 /* Frameworks */,
@@ -162,11 +162,11 @@
 			fileSystemSynchronizedGroups = (
 				405D45152E80991B00C6B732 /* Scrapify iOS AppUITests */,
 			);
-			name = "Scrapify iOS AppUITests";
+			name = ScrapifyUITests;
 			packageProductDependencies = (
 			);
 			productName = "Scrapify iOS AppUITests";
-			productReference = 405D45122E80991B00C6B732 /* Scrapify iOS AppUITests.xctest */;
+			productReference = 405D45122E80991B00C6B732 /* ScrapifyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 405D44F32E80991A00C6B732 /* Build configuration list for PBXProject "Scrapify iOS App" */;
+			buildConfigurationList = 405D44F32E80991A00C6B732 /* Build configuration list for PBXProject "Scrapify" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -206,9 +206,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				405D44F72E80991A00C6B732 /* Scrapify iOS App */,
-				405D45072E80991B00C6B732 /* Scrapify iOS AppTests */,
-				405D45112E80991B00C6B732 /* Scrapify iOS AppUITests */,
+				405D44F72E80991A00C6B732 /* Scrapify */,
+				405D45072E80991B00C6B732 /* ScrapifyTests */,
+				405D45112E80991B00C6B732 /* ScrapifyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,12 +265,12 @@
 /* Begin PBXTargetDependency section */
 		405D450A2E80991B00C6B732 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 405D44F72E80991A00C6B732 /* Scrapify iOS App */;
+			target = 405D44F72E80991A00C6B732 /* Scrapify */;
 			targetProxy = 405D45092E80991B00C6B732 /* PBXContainerItemProxy */;
 		};
 		405D45142E80991B00C6B732 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 405D44F72E80991A00C6B732 /* Scrapify iOS App */;
+			target = 405D44F72E80991A00C6B732 /* Scrapify */;
 			targetProxy = 405D45132E80991B00C6B732 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -468,7 +468,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrapify iOS App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrapify iOS App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrapify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrapify";
 			};
 			name = Debug;
 		};
@@ -487,7 +487,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrapify iOS App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrapify iOS App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrapify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrapify";
 			};
 			name = Release;
 		};
@@ -528,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		405D44F32E80991A00C6B732 /* Build configuration list for PBXProject "Scrapify iOS App" */ = {
+		405D44F32E80991A00C6B732 /* Build configuration list for PBXProject "Scrapify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				405D451A2E80991B00C6B732 /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		405D451C2E80991B00C6B732 /* Build configuration list for PBXNativeTarget "Scrapify iOS App" */ = {
+		405D451C2E80991B00C6B732 /* Build configuration list for PBXNativeTarget "Scrapify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				405D451D2E80991B00C6B732 /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		405D451F2E80991B00C6B732 /* Build configuration list for PBXNativeTarget "Scrapify iOS AppTests" */ = {
+		405D451F2E80991B00C6B732 /* Build configuration list for PBXNativeTarget "ScrapifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				405D45202E80991B00C6B732 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		405D45222E80991B00C6B732 /* Build configuration list for PBXNativeTarget "Scrapify iOS AppUITests" */ = {
+		405D45222E80991B00C6B732 /* Build configuration list for PBXNativeTarget "ScrapifyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				405D45232E80991B00C6B732 /* Debug */,

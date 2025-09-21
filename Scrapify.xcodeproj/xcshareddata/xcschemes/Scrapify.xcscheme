@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "405D44F72E80991A00C6B732"
-               BuildableName = "Scrapify iOS App.app"
-               BlueprintName = "Scrapify iOS App"
-               ReferencedContainer = "container:Scrapify iOS App.xcodeproj">
+               BuildableName = "Scrapify.app"
+               BlueprintName = "Scrapify"
+               ReferencedContainer = "container:Scrapify.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "405D45072E80991B00C6B732"
-               BuildableName = "Scrapify iOS AppTests.xctest"
-               BlueprintName = "Scrapify iOS AppTests"
-               ReferencedContainer = "container:Scrapify iOS App.xcodeproj">
+               BuildableName = "ScrapifyTests.xctest"
+               BlueprintName = "ScrapifyTests"
+               ReferencedContainer = "container:Scrapify.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "405D45112E80991B00C6B732"
-               BuildableName = "Scrapify iOS AppUITests.xctest"
-               BlueprintName = "Scrapify iOS AppUITests"
-               ReferencedContainer = "container:Scrapify iOS App.xcodeproj">
+               BuildableName = "ScrapifyUITests.xctest"
+               BlueprintName = "ScrapifyUITests"
+               ReferencedContainer = "container:Scrapify.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "405D44F72E80991A00C6B732"
-            BuildableName = "Scrapify iOS App.app"
-            BlueprintName = "Scrapify iOS App"
-            ReferencedContainer = "container:Scrapify iOS App.xcodeproj">
+            BuildableName = "Scrapify.app"
+            BlueprintName = "Scrapify"
+            ReferencedContainer = "container:Scrapify.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "405D44F72E80991A00C6B732"
-            BuildableName = "Scrapify iOS App.app"
-            BlueprintName = "Scrapify iOS App"
-            ReferencedContainer = "container:Scrapify iOS App.xcodeproj">
+            BuildableName = "Scrapify.app"
+            BlueprintName = "Scrapify"
+            ReferencedContainer = "container:Scrapify.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

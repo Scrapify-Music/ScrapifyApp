@@ -1,0 +1,48 @@
+# fastlane/Fastfile
+
+default_platform(:ios)
+
+platform :ios do
+  # This lane runs the unit and UI tests for your application.
+  lane :tests do
+    run_tests(
+      scheme: "Scrapify", 
+      clean: true,
+      device: "iPhone 15 Pro"
+    )
+  end
+
+  # This lane builds and deploys a new version to TestFlight.
+  lane :beta do
+    # Run our private code signing lane first.
+    setup_ci_signing
+
+    # Increment the build number in your project.
+    increment_build_number(
+      xcodeproj: "Scrapify.xcodeproj"
+    )
+
+    # Build the app using the 'app-store' export method.
+    build_app(
+      scheme: "Scrapify",
+      workspace: "Scrapify.xcworkspace",
+      export_method: "app-store"
+    )
+
+    # Upload the build to TestFlight.
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true
+    )
+  end
+
+  # This is a private helper lane for code signing on the CI server.
+  private_lane :setup_ci_signing do
+    # 'match' syncs your certificates and profiles from a private Git repo.
+    # The 'readonly' flag is a security best practice for CI.
+    match(
+      type: "appstore",
+      git_url: "https://github.com/YourUser/YourCertsRepo.git", # TO-DO: Replace with Match repo URL
+      readonly: true
+    )
+  end
+end
