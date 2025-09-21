@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		405D45362E809C7B00C6B732 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 405D45352E809C7B00C6B732 /* Gemfile */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		405D45092E80991B00C6B732 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		405D44F82E80991A00C6B732 /* Scrapify iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrapify iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		405D45082E80991B00C6B732 /* Scrapify iOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrapify iOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		405D45122E80991B00C6B732 /* Scrapify iOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrapify iOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405D45352E809C7B00C6B732 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		405D44EF2E80991A00C6B732 = {
 			isa = PBXGroup;
 			children = (
+				405D45352E809C7B00C6B732 /* Gemfile */,
 				405D44FA2E80991A00C6B732 /* Scrapify iOS App */,
 				405D450B2E80991B00C6B732 /* Scrapify iOS AppTests */,
 				405D45152E80991B00C6B732 /* Scrapify iOS AppUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405D45362E809C7B00C6B732 /* Gemfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
